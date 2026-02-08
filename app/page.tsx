@@ -275,44 +275,6 @@ UNIQUE CHARACTERISTICS:
               </div>
             </div>
 
-            {/* Left Branch - Streaming */}
-            <div className="mb-32 md:mr-auto md:ml-0 md:w-1/2 md:pl-12 w-full">
-              <div className="relative">
-                <div className="md:pr-8 pb-8">
-                  <h2 className="text-4xl font-bold text-black mb-6 uppercase tracking-wide text-center md:text-left">
-                    Streaming
-                  </h2>
-                  <div className="bg-white/5 backdrop-blur-md rounded-lg p-6 text-base text-black text-center md:text-left">
-                    <div className="flex gap-4 mb-4 justify-center md:justify-start">
-                      <a
-                        href="https://open.spotify.com/artist/0ZNouScAQI1pQCLbWWJr3g"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:opacity-60 transition"
-                        aria-label="Listen on Spotify"
-                      >
-                        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                        </svg>
-                      </a>
-                      <a
-                        href="https://music.apple.com/us/artist/anteater/1482398618"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:opacity-60 transition"
-                        aria-label="Listen on Apple Music"
-                      >
-                        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                        </svg>
-                      </a>
-                    </div>
-                    <p>Available on all platforms</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Right Branch - Upcoming Shows */}
             <ShowsSectionComponent events={events} loading={loading} />
 
@@ -457,7 +419,7 @@ UNIQUE CHARACTERISTICS:
                     <p className="mb-3">Follow us on social media</p>
                     <div className="flex gap-4 justify-center md:justify-start">
                       <a
-                        href="https://www.instagram.com/anteater_official"
+                        href="https://www.instagram.com/anteaterofficial/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-bold hover:opacity-60 transition"
@@ -488,6 +450,10 @@ UNIQUE CHARACTERISTICS:
           </div>
         </div>
       </main>
+
+      <footer className="relative text-center py-6 px-4">
+        <p className="text-xs text-black/40">&copy; 2026 | Design & Development: Ing. Jindřich Traxmandl</p>
+      </footer>
     </div>
   )
 }
