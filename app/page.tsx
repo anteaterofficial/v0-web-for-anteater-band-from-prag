@@ -397,6 +397,20 @@ UNIQUE CHARACTERISTICS:
                         Download Stage Plan
                       </a>
                     </div>
+                    <div className="mt-6">
+                      <p className="font-semibold mb-3">Setlist</p>
+                      <a
+                        href="/files/anteater-setlist.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:opacity-60 transition inline-flex items-center gap-2"
+                      >
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                        </svg>
+                        Download Setlist
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
