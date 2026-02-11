@@ -222,6 +222,7 @@ UNIQUE CHARACTERISTICS:
           <div className="text-center mb-32">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-2 px-4">ANTEATER</h1>
             <p className="text-sm text-black">Rock Band from Czech Republic</p>
+            <p className="text-base text-black">Special announcement coming soon.</p>
           </div>
 
           {/* Central Timeline Container */}
