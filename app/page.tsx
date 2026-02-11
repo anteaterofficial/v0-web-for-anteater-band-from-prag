@@ -222,7 +222,6 @@ UNIQUE CHARACTERISTICS:
           <div className="text-center mb-32">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-black mb-2 px-4">ANTEATER</h1>
             <p className="text-sm text-black">Rock Band from Czech Republic</p>
-            <p className="text-base text-black">Special announcement coming soon.</p>
           </div>
 
           {/* Central Timeline Container */}
@@ -239,19 +238,9 @@ UNIQUE CHARACTERISTICS:
                     <p className="mb-3">7 years active, extensive live experience</p>
                     <p className="mb-3">Performed in Germany and England</p>
                     <p className="mb-3">1st place at Múza 2019 and Strahov Show Band Contest 2019</p>
-                    <p className="mb-3">
-                      Single{" "}
-                      <a
-                        href="https://www.youtube.com/watch?v=UkekVsnQuaM"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-bold hover:opacity-60 transition no-underline"
-                      >
-                        "FUEL"
-                      </a>{" "}
-                      reached #1 on Rock Zone Radio charts (Czech Republic)
-                    </p>
-                    <p>UK Tours 2022-2023</p>
+                    <p className="mb-3">UK Tours 2022-2023</p>
+                    <p className="mb-3">2024 Single "FUEL" reached #1 on Rock Zone Radio charts (Czech Republic)</p>
+                    <p className="mt-3">Special announcement coming soon.</p>
                   </div>
                 </div>
               </div>
